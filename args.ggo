@@ -1,0 +1,14 @@
+package "checkFile"
+version "0.1"
+purpose ""
+description "Checks if file extension matches file type"
+
+
+option "file" f "States file extension and compares it to file type.Can receive file name (same dir) or file path." string optional
+option "dir" d "Performs same action as file to multiple files outlined in a text file." string optional
+option "batch" b "Given a directory, performs file action to each file contained within." string optional
+option "no-help" h "Shows this help. Supports file types:PDF, GIF,JPG,PNG,MP4,ZIP,HTML" optional
+
+
+
+
